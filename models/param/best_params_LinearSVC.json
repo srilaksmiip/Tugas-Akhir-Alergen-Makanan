@@ -1,0 +1,5 @@
+{
+    "clf__estimator__C": 1,
+    "clf__estimator__class_weight": "balanced",
+    "clf__estimator__loss": "squared_hinge"
+}

@@ -1,0 +1,5 @@
+{
+    "clf__estimator__class_weight": null,
+    "clf__estimator__max_depth": 70,
+    "clf__estimator__min_samples_leaf": 1
+}

@@ -1,0 +1,4 @@
+{
+    "clf__estimator__C": 10,
+    "clf__estimator__class_weight": "balanced"
+}

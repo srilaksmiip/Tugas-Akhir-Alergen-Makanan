@@ -1,0 +1,102 @@
+CV_Best_F1_Weighted: 0.8594963285578384
+Test_F1_Weighted: 0.8609233484748173
+Test_F1_Samples: 0.8559225663652997
+Test_F1_Macro: 0.6867593311770257
+Test_F1_Micro: 0.8449876653958287
+Test_Hamming_Loss: 0.03655247543601731
+Test_Subset_Accuracy: 0.6374472495742948
+Test_ROC_AUC_Weighted_OvR: 0.9661554346118542
+Test_MCC_Macro: 0.6813173922823045
+Test_Cohens_Kappa_Macro: 0.6630922979296896
+
+Test_Classification_Report_Dict:
+  celery:
+    precision: 0.7856
+    recall: 0.9806
+    f1-score: 0.8723
+    support: 669.0000
+  crustaceans:
+    precision: 0.5758
+    recall: 0.9493
+    f1-score: 0.7168
+    support: 276.0000
+  eggs:
+    precision: 0.6943
+    recall: 0.9512
+    f1-score: 0.8027
+    support: 1640.0000
+  fish:
+    precision: 0.2981
+    recall: 0.9029
+    f1-score: 0.4482
+    support: 175.0000
+  gluten:
+    precision: 0.8317
+    recall: 0.9115
+    f1-score: 0.8698
+    support: 5455.0000
+  lupin:
+    precision: 0.0000
+    recall: 0.0000
+    f1-score: 0.0000
+    support: 1.0000
+  milk:
+    precision: 0.9047
+    recall: 0.9080
+    f1-score: 0.9064
+    support: 6589.0000
+  molluscs:
+    precision: 0.0835
+    recall: 0.6452
+    f1-score: 0.1479
+    support: 62.0000
+  mustard:
+    precision: 0.6604
+    recall: 0.9307
+    f1-score: 0.7726
+    support: 303.0000
+  nuts:
+    precision: 0.8909
+    recall: 0.9799
+    f1-score: 0.9333
+    support: 1792.0000
+  peanuts:
+    precision: 0.7384
+    recall: 0.9594
+    f1-score: 0.8345
+    support: 862.0000
+  sesame_seeds:
+    precision: 0.7426
+    recall: 0.9347
+    f1-score: 0.8277
+    support: 429.0000
+  soybeans:
+    precision: 0.7090
+    recall: 0.9111
+    f1-score: 0.7974
+    support: 1845.0000
+  sulphur_dioxide_and_sulphites:
+    precision: 0.5565
+    recall: 0.8908
+    f1-score: 0.6850
+    support: 293.0000
+  micro avg:
+    precision: 0.7785
+    recall: 0.9239
+    f1-score: 0.8450
+    support: 20391.0000
+  macro avg:
+    precision: 0.6051
+    recall: 0.8468
+    f1-score: 0.6868
+    support: 20391.0000
+  weighted avg:
+    precision: 0.8142
+    recall: 0.9239
+    f1-score: 0.8609
+    support: 20391.0000
+  samples avg:
+    precision: 0.8285
+    recall: 0.9366
+    f1-score: 0.8559
+    support: 20391.0000
