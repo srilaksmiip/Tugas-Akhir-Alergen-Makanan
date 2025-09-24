@@ -21,6 +21,14 @@ Semua pustaka yang dibutuhkan tercantum dalam `requirements.txt`.
 pip install -r requirements.txt
 ```
 
+### Langkah 3: Menjalankan Model
+Untuk mendapatkan model terlatih dapat dilakukan dengan
+1. Jalankan perintah berikut di terminal:
+    ```bash
+    python pipeline.py
+    ```
+2. Hasil penelitian menemukan bahwa model terlatih paling efektif adalah RF sehingga skrip di atas akan menghasilkan model file .joblib RF saja. pada models/. Namun, jika ingin menghasilkan model lain, dapat melakukan konfigurasi sendiri pada skrip config.py
+
 ### Langkah 3: Menjalankan Prototipe
 1.  Pastikan Anda berada di direktori utama proyek (`TA-klasifikasi-alergen`).
 2.  Jalankan perintah berikut di terminal:
@@ -28,6 +36,3 @@ pip install -r requirements.txt
     streamlit run proto.py
     ```
 3.  Buka browser Anda dan akses alamat URL yang ditampilkan
-
-
-**Model terlatih (file `.joblib`)** merupakan artefak utama dari penelitian tugas akhir ini. File-file ini, yang tersimpan di dalam direktori `/models`, berisi seluruh *pipeline* (TF-IDF Vectorizer dan classifier Random Forest) yang siap digunakan untuk inferensi, seperti yang didemonstrasikan dalam aplikasi prototipe.
